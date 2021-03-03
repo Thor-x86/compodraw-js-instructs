@@ -8,7 +8,7 @@
     "prepare": "cd tests/e2e && $npm_execpath install",
     "pretty": "prettier --write \"./**/*.{ts,js,jsx,json}\"",
     "build": "$npm_execpath run pretty && webpack build -c webpack.config.js && $npm_execpath run postbuild",
-    "patch": "cp -f build/compodraw.js tests/e2e/node_modules/compodraw/build/",
+    "patch": "cp -f build/compodraw-instructs.js tests/e2e/node_modules/compodraw-instructs/build/",
     "postbuild": "$npm_execpath run patch && cd tests/e2e && $npm_execpath run build",
     "pretest": "$npm_execpath run build",
     "test": "$npm_execpath run test:unit && $npm_execpath run test:e2e",
