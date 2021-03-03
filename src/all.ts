@@ -1,0 +1,27 @@
+import * as index from "./index";
+
+export default {
+  crop: index.Crop,
+  elevate: index.Elevate,
+  ellipse: index.Ellipse,
+  "ellipse-stroke": index.EllipseStroke,
+  gradient: index.GradientLinear,
+  "gradient-linear": index.GradientLinear,
+  "gradient-radial": index.GradientRadial,
+  group: index.Group,
+  image: index.Image,
+  mask: index.Mask,
+  move: index.Move,
+  path: index.Path,
+  "path-stroke": index.PathStroke,
+  rectangle: index.Rectangle,
+  "rectangle-round": index.RectangleRound,
+  "rectangle-round-stroke": index.RectangleRoundStroke,
+  "rectangle-stroke": index.RectangleStroke,
+  rotate: index.Rotate,
+  scale: index.Scale,
+  shadow: index.Shadow,
+  text: index.Text,
+  "text-stroke": index.TextStroke,
+  transparent: index.Transparent,
+};
