@@ -13,7 +13,7 @@ Provides essential instructs for [CompoDrawJS](https://github.com/Thor-x86/compo
    ```bash
    npm install compodraw-instructs --save
    ```
-   or you can download the bundled JavaScript file for plain HTML or PHP project
+   or you can [download the bundled JavaScript](https://github.com/Thor-x86/compodraw-js-instructs/releases) file for plain HTML or PHP project
 3. **That's it!** for more info, see reference below.
 
 ## References
